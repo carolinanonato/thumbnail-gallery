@@ -2,7 +2,7 @@
   width: 80vh;
   height: auto;
   display: grid;
-  margin: 100px auto;
+  margin: 50px auto;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
 }
@@ -10,11 +10,4 @@
 .img-main {
   grid-column-start: 1;
   grid-column-end: 4;
-}
-
-.img-main,
-.img-one,
-.img-two,
-.img-three {
-  display: flex;
 }
