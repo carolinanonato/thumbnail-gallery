@@ -6,21 +6,21 @@ const imgThree = document.querySelector(".img-three");
 //imgOne.addEventListener('click', changeImg);
 //imgThree.addEventListener('click', changeImg);
 
-let changeImageOne = function () {
+let changeImageOne = () => {
     let newMainImg = imgOne.getAttribute("src");
     let newMainAlt = imgOne.getAttribute("alt");
     imgMain.setAttribute("src", newMainImg);
     imgMain.setAttribute("alt", newMainAlt);
 }
 
-let changeImageTwo = function () {
+let changeImageTwo = () => {
     let newMainImg = imgTwo.getAttribute("src");
     let newMainAlt = imgTwo.getAttribute("alt");
     imgMain.setAttribute("src", newMainImg);
     imgMain.setAttribute("alt", newMainAlt);
 }
 
-let changeImageThree = function () {
+let changeImageThree = () => {
     let newMainImg = imgThree.getAttribute("src");
     let newMainAlt = imgThree.getAttribute("alt");
     imgMain.setAttribute("src", newMainImg);
