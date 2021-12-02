@@ -94,7 +94,6 @@ const handleThumbClick = function(event){
     const thumb = event.target
     const url = thumb.getAttribute(`src`)
     imgMain.setAttribute('src' , url)
-  
 }
 
 imgOne.addEventListener('click', handleThumbClick);
